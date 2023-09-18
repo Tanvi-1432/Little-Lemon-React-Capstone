@@ -40,7 +40,7 @@ You can access a live demo of the **Little Lemon** restaurant reservation web ap
 
 Follow these steps to set up the project on your local machine:
 
-1. Clone the repository: `git clone https://github.com/your-username/little-lemon.git`
+1. Clone the repository: `git clone https://github.com/your-username/Little-Lemon-React-Capstone.git`
 2. Navigate to the project directory: `cd little-lemon`
 3. Install dependencies: `npm install`
 
