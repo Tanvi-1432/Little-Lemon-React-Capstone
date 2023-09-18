@@ -125,7 +125,6 @@ export default function TableReservation(props) {
                     type="text"
                     name="fullname"
                     id="fullname"
-                    pattern="[a-zA-Z]"
                     value={formData.fullname}
                     onChange={handleChange}
                     onBlur={() => setFormData({ ...formData, isTouched: true })}

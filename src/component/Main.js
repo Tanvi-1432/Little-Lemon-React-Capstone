@@ -42,7 +42,7 @@ export default function Main() {
     const navigate = useNavigate();
     function submitForm(formData) {
         if (submitAPI(formData)) {
-            navigate("/confirmedbooking");
+            navigate("Little-Lemon-React-Capstone/confirmedbooking");
         }
     }
 

@@ -10,7 +10,7 @@ export default function ConfirmedBooking() {
                 <img src={checkSign} alt='check sign' />
                 <p className='confirm-msg'>Your booking is confirmed</p>
                 <p className='reminder'>You will get a reminder and a confirmation text on your provided phone number and email.</p>
-                <Link to="/"><button>Home</button></Link>
+                <Link to="Little-Lemon-React-Capstone/"><button>Home</button></Link>
             </div>
         </div>
     )
