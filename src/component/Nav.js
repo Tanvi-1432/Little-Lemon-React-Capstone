@@ -15,12 +15,12 @@ export default function Nav() {
         <nav>
             <div className="desktop-navigation">
                 <ul>
-                    <Link to="/"><li>Home</li></Link>
-                    <Link to="/about"><li>About</li></Link>
-                    <Link to="/menu"><li>Menu</li></Link>
-                    <Link to="/reservation"><li>Reservation</li></Link>
-                    <Link to="/order-online"><li>Order online</li></Link>
-                    <Link to="/login"><li>Log in</li></Link>
+                    <Link to="Little-Lemon-React-Capstone/"><li>Home</li></Link>
+                    <Link to="Little-Lemon-React-Capstone/about"><li>About</li></Link>
+                    <Link to="Little-Lemon-React-Capstone/menu"><li>Menu</li></Link>
+                    <Link to="Little-Lemon-React-Capstone/reservation"><li>Reservation</li></Link>
+                    <Link to="Little-Lemon-React-Capstone/order-online"><li>Order online</li></Link>
+                    <Link to="Little-Lemon-React-Capstone/login"><li>Log in</li></Link>
                 </ul>
             </div>
 
@@ -43,12 +43,12 @@ export default function Nav() {
                 </div>
                 <div className={`mobile-nav-container ${hamburgerClicked ? "mobile-nav-active" : ""}`}>
                     <ul>
-                        <Link to="/" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>Home</li></Link>
-                        <Link to="/about" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>About</li></Link>
-                        <Link to="/menu" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>Menu</li></Link>
-                        <Link to="/reservation" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>Reservation</li></Link>
-                        <Link to="/order-online" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>Order online</li></Link>
-                        <Link to="/login" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>Log In</li></Link>
+                        <Link to="Little-Lemon-React-Capstone/" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>Home</li></Link>
+                        <Link to="Little-Lemon-React-Capstone/about" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>About</li></Link>
+                        <Link to="Little-Lemon-React-Capstone/menu" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>Menu</li></Link>
+                        <Link to="Little-Lemon-React-Capstone/reservation" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>Reservation</li></Link>
+                        <Link to="Little-Lemon-React-Capstone/order-online" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>Order online</li></Link>
+                        <Link to="Little-Lemon-React-Capstone/login" onClick={() => setHamburgerClicked(!hamburgerClicked)}><li>Log In</li></Link>
                     </ul>
                 </div>
             </div>

@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 export default function HighlightCards(props) {
     return (
         <div className='highlight-items'>
-            <img src={`./images/${props.image}`} alt='food' />
+            <img src={props.image} alt='food' />
             <div className='item-wrapper'>
                 <div className='title-price'>
                     <h4 className='item-title'>{props.title}</h4>
