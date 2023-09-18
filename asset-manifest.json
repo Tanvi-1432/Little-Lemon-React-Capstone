@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Little-Lemon-React-Capstone/static/css/main.ff00ef75.css",
-    "main.js": "/Little-Lemon-React-Capstone/static/js/main.05151414.js",
+    "main.js": "/Little-Lemon-React-Capstone/static/js/main.cac4688e.js",
     "static/media/Mario and Adrian A.jpg": "/Little-Lemon-React-Capstone/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
     "static/media/Mario and Adrian b.jpg": "/Little-Lemon-React-Capstone/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
     "static/media/restaurant chef B.jpg": "/Little-Lemon-React-Capstone/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
@@ -13,10 +13,10 @@
     "static/media/check sign.webp": "/Little-Lemon-React-Capstone/static/media/check sign.68d98a684e05e085e6fe.webp",
     "index.html": "/Little-Lemon-React-Capstone/index.html",
     "main.ff00ef75.css.map": "/Little-Lemon-React-Capstone/static/css/main.ff00ef75.css.map",
-    "main.05151414.js.map": "/Little-Lemon-React-Capstone/static/js/main.05151414.js.map"
+    "main.cac4688e.js.map": "/Little-Lemon-React-Capstone/static/js/main.cac4688e.js.map"
   },
   "entrypoints": [
     "static/css/main.ff00ef75.css",
-    "static/js/main.05151414.js"
+    "static/js/main.cac4688e.js"
   ]
 }
