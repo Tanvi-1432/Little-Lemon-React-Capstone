@@ -13,12 +13,12 @@ export default function Hero() {
                         focused on traditional recipes served with a modern
                         twist.
                     </p>
-                <Link to="/reservation"><button aria-label='On-Click'>Reserve a table</button></Link>
+                    <Link to="Little-Lemon-React-Capstone/reservation"><button aria-label='On-Click'>Reserve a table</button></Link>
+                </div>
+                <div className='hero-img'>
+                    <img src={heroImage} alt='' />
+                </div>
             </div>
-            <div className='hero-img'>
-                <img src={heroImage} alt='' />
-            </div>
-        </div>
         </section >
     )
 }
