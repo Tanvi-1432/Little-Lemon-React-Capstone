@@ -1,4 +1,5 @@
 import littleLemon from "../images/little-lemon.png";
+import { Link } from "react-router-dom";
 import Nav from "./Nav"
 
 export default function Header() {
@@ -6,9 +7,9 @@ export default function Header() {
         <header>
             <div className="navigation">
                 <div className="logo">
-                    <a href="/">
+                    <Link to="Little-Lemon-React-Capstone/">
                         <img src={littleLemon} alt="logo" />
-                    </a>
+                    </Link>
                 </div>
                 <Nav />
             </div>

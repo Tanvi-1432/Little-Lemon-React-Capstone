@@ -32,9 +32,9 @@ Welcome to the **Little Lemon** Restaurant Web App project! This application was
 
 ## Demo
 
-[Live Demo](link-to-your-live-demo)
+[Live Demo](https://tanvi-1432.github.io/Little-Lemon-React-Capstone)
 
-You can access a live demo of the **Little Lemon** restaurant reservation web app [here](link-to-your-live-demo). Explore its features and functionalities to get a firsthand experience.
+You can access a live demo of the **Little Lemon** restaurant reservation web app [here](https://tanvi-1432.github.io/Little-Lemon-React-Capstone). Explore its features and functionalities to get a firsthand experience.
 
 ## Installation
 
