@@ -13,7 +13,7 @@ export default function Hero() {
                         focused on traditional recipes served with a modern
                         twist.
                     </p>
-                    <Link to="reservation/"><button aria-label='On-Click'>Reserve a table</button></Link>
+                    <Link to="reservation/"><button aria-label='On-Click' className='button-hover'>Reserve a table</button></Link>
                 </div>
                 <div className='hero-img'>
                     <img src={heroImage} alt='' />
