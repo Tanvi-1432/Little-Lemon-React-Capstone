@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Little-Lemon-React-Capstone/static/css/main.25d02a6f.css",
-    "main.js": "/Little-Lemon-React-Capstone/static/js/main.9ea60051.js",
-    "static/media/Mario and Adrian A.jpg": "/Little-Lemon-React-Capstone/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
-    "static/media/Mario and Adrian b.jpg": "/Little-Lemon-React-Capstone/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
-    "static/media/restaurant chef B.jpg": "/Little-Lemon-React-Capstone/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
-    "static/media/hero-image.jpg": "/Little-Lemon-React-Capstone/static/media/hero-image.e8abf5b772b6817189aa.jpg",
+    "main.css": "/Little-Lemon-React-Capstone/static/css/main.41d10a5b.css",
+    "main.js": "/Little-Lemon-React-Capstone/static/js/main.0defb613.js",
+    "static/media/restaurant chef B.jpg": "/Little-Lemon-React-Capstone/static/media/restaurant chef B.7ac401ac8bd80caac515.jpg",
+    "static/media/Mario and Adrian A.jpg": "/Little-Lemon-React-Capstone/static/media/Mario and Adrian A.5fb7c0e5496a672da31e.jpg",
+    "static/media/Mario and Adrian b.jpg": "/Little-Lemon-React-Capstone/static/media/Mario and Adrian b.69ef56085cc6d75f1da7.jpg",
+    "static/media/hero-image.jpg": "/Little-Lemon-React-Capstone/static/media/hero-image.4a635f3bd7686ce4f8db.jpg",
     "static/media/restaurant.jpg": "/Little-Lemon-React-Capstone/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
     "static/media/footer-logo.png": "/Little-Lemon-React-Capstone/static/media/footer-logo.2c859235d6c57bb54176.png",
     "static/media/star.png": "/Little-Lemon-React-Capstone/static/media/star.07f560db0ee62644ca6b.png",
     "static/media/little-lemon.png": "/Little-Lemon-React-Capstone/static/media/little-lemon.d4cae6fac8384c2dae04.png",
     "static/media/check sign.webp": "/Little-Lemon-React-Capstone/static/media/check sign.68d98a684e05e085e6fe.webp",
     "index.html": "/Little-Lemon-React-Capstone/index.html",
-    "main.25d02a6f.css.map": "/Little-Lemon-React-Capstone/static/css/main.25d02a6f.css.map",
-    "main.9ea60051.js.map": "/Little-Lemon-React-Capstone/static/js/main.9ea60051.js.map"
+    "main.41d10a5b.css.map": "/Little-Lemon-React-Capstone/static/css/main.41d10a5b.css.map",
+    "main.0defb613.js.map": "/Little-Lemon-React-Capstone/static/js/main.0defb613.js.map"
   },
   "entrypoints": [
-    "static/css/main.25d02a6f.css",
-    "static/js/main.9ea60051.js"
+    "static/css/main.41d10a5b.css",
+    "static/js/main.0defb613.js"
   ]
 }
