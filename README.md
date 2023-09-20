@@ -12,6 +12,7 @@ Welcome to the **Little Lemon** Restaurant Web App project! This application was
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
+- [API Integration](#api-integration)
 - [Client-Side Form Validation](#client-side-form-validation)
 - [Single-Page Application](#single-page-application)
 - [Contributing](#contributing)
@@ -34,10 +35,10 @@ Welcome to the **Little Lemon** Restaurant Web App project! This application was
 
 [Live Demo](https://little-lemon-react-capstone.vercel.app)
 
+You can access a live demo of the **Little Lemon** restaurant reservation web app [here](https://little-lemon-react-capstone.vercel.app). Explore its features and functionalities to get a firsthand experience.
+
 ![image1](./public/images/readme-image1.jpg)
 ![image1](./public/images/readme-image2.png)
-
-You can access a live demo of the **Little Lemon** restaurant reservation web app [here](https://little-lemon-react-capstone.vercel.app). Explore its features and functionalities to get a firsthand experience.
 
 ## Installation
 
@@ -62,6 +63,44 @@ Follow these steps to set up the project on your local machine:
 - **Git**: Version control and collaboration.
 - **Coursera Front-End Development Course**: Leveraged knowledge and skills from the course.
 
+## API Integration
+
+**Little Lemon** utilizes API calls to fetch available table reservation times dynamically. This feature ensures that users can view and select real-time, up-to-date reservation options, enhancing the overall user experience.
+
+```jsx
+    const seededRandom = function (seed) {
+        var m = 2 ** 35 - 31;
+        var a = 185852;
+        var s = seed % m;
+        return function () {
+            return (s = s * a % m) / m;
+        };
+    }
+
+    const fetchAPI = function (date) {
+        let result = [];
+        let random = seededRandom(date.getDate());
+
+        for (let i = 17; i <= 23; i++) {
+            if (random() < 0.5) {
+                result.push(i + ':00');
+            }
+            if (random() < 0.5) {
+                result.push(i + ':30');
+            }
+        }
+        return result;
+    };
+
+
+     const initialState = { availableTimes: fetchAPI(new Date()) }
+    const [state, dispatch] = useReducer(updateTimes, initialState);
+
+    function updateTimes(state, date) {
+        return { availableTimes: fetchAPI(new Date(date)) }
+    }
+```
+
 ## Client-Side Form Validation
 
 The project includes robust client-side form validation to enhance data accuracy and user experience. This demonstrates a commitment to delivering high-quality and user-friendly applications.
@@ -83,4 +122,3 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
