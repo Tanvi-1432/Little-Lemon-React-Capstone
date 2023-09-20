@@ -42,7 +42,7 @@ export default function Main() {
     const navigate = useNavigate();
     function submitForm(formData) {
         if (submitAPI(formData)) {
-            navigate("Little-Lemon-React-Capstone/confirmedbooking");
+            navigate("/confirmedbooking");
         }
     }
 
@@ -56,13 +56,13 @@ export default function Main() {
     return (
         <main>
             <Routes>
-                <Route path="Little-Lemon-React-Capstone/" element={<Home />}></Route>
-                <Route path="Little-Lemon-React-Capstone/about" element={<About />}></Route>
-                <Route path="Little-Lemon-React-Capstone/menu" element={<Menu />}></Route>
-                <Route path="Little-Lemon-React-Capstone/reservation" element={<Booking availableTimes={state.availableTimes} dispatch={dispatch} submitForm={submitForm}/>}></Route>
-                <Route path="Little-Lemon-React-Capstone/order-online" element={<OrderOnline />}></Route>
-                <Route path="Little-Lemon-React-Capstone/login" element={<Login />}></Route>
-                <Route path="Little-Lemon-React-Capstone/confirmedbooking" element={<ConfirmedBooking />}></Route>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/about" element={<About />}></Route>
+                <Route path="/menu" element={<Menu />}></Route>
+                <Route path="/reservation" element={<Booking availableTimes={state.availableTimes} dispatch={dispatch} submitForm={submitForm}/>}></Route>
+                <Route path="/order-online" element={<OrderOnline />}></Route>
+                <Route path="/login" element={<Login />}></Route>
+                <Route path="/confirmedbooking" element={<ConfirmedBooking />}></Route>
             </Routes>
         </main>
     )

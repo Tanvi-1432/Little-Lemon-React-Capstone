@@ -7,7 +7,7 @@ export default function Header() {
         <header>
             <div className="navigation">
                 <div className="logo">
-                    <Link to="Little-Lemon-React-Capstone/">
+                    <Link to="/">
                         <img src={littleLemon} alt="logo" />
                     </Link>
                 </div>

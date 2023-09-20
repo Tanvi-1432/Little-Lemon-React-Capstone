@@ -1,5 +1,6 @@
 import React from 'react'
 import HighlightCards from './HighlightCards'
+import { Link } from 'react-router-dom'
 
 export default function Highlights() {
 
@@ -29,7 +30,7 @@ export default function Highlights() {
       <div className='highlights-container'>
         <div className='highlights-banner'>
           <h3>This weeks specals!</h3>
-          <button>Online Menu</button>
+          <Link to="/menu"><button>Online Menu</button></Link>
         </div>
         <div className='highlights-cards'>
           {items.map(item => {

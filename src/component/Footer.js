@@ -12,12 +12,12 @@ export default function Footer() {
                     <div className='about'>
                         <h4>About us</h4>
                         <ul>
-                            <a href=''><li>Our Company</li></a>
-                            <a href=''><li>Suppliers</li></a>
-                            <a href=''><li>Careers</li></a>
-                            <a href=''><li>Newsletter</li></a>
-                            <a href=''><li>Customer Service</li></a>
-                            <a href=''><li>Contact Us</li></a>
+                            <a href='/'><li>Our Company</li></a>
+                            <a href='/'><li>Suppliers</li></a>
+                            <a href='/'><li>Careers</li></a>
+                            <a href='/'><li>Newsletter</li></a>
+                            <a href='/'><li>Customer Service</li></a>
+                            <a href='/'><li>Contact Us</li></a>
                         </ul>
                     </div>
                     <div className='contact-info'>
